@@ -1,0 +1,55 @@
+@import url("carousel.css"); 
+@import url("modal.css");
+
+* {
+  line-height: 40px;
+  background-color:rgb(38, 37, 43);
+  padding:1%;
+  color: antiquewhite;
+  font-family: Helvetica;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  margin : 0%
+}
+
+h3{
+  text-align: center;
+  font-size: 20px;
+  min-height: 40px;
+  overflow:hidden;
+  clear: both;
+  white-space: nowrap;
+  margin: 0px
+}
+
+p{
+  text-align: left;
+  font-size: 17px;
+  margin : 0%;
+}
+
+button{
+  font-size: 18px;
+}
+
+#menu{
+  background-color: blanchedalmond;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.best-film{
+  display: flex;
+  text-align: center;
+  padding-left: 50px;
+  margin: 3% 20% 0% 20%;
+  justify-content: center;
+  border: 1px solid #888;
+}
+
+.logo{
+  background-color:transparent;
+}

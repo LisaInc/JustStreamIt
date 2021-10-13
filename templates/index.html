@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JustStreamIt</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script type="module" src="/static/js/main.js" defer></script>
+    <script type="module" src="/static/js/modal.js" defer></script>
+</head>
+
+<body>
+    <div id='menu'>
+        <img class="logo" src="/static/img/logo.png">
+    </div>
+
+    <div id='bestFilm' class='best-film'>
+    </div>
+
+    <div class="container" id="carouselContainer">
+        <template id="carouselTemplate">
+            <div class="carousel">
+                <h2 class="genre"></h2>
+                <div class="nav nav-left">
+                    <div class="ion-chevron-left carousel-arrow-icon-left">
+                        &lt
+                    </div>
+                </div>
+                <div class="carousel-content">
+                    <div class="slide slide-1"></div>
+                    <div class="slide slide-2"></div>
+                    <div class="slide slide-3"></div>
+                    <div class="slide slide-4"></div>
+                    <div class="slide slide-5"></div>
+                    <div class="slide slide-6"></div>
+                    <div class="slide slide-7"></div>
+                </div>
+                <div class="nav nav-right">
+                    <div class="ion-chevron-right carousel-arrow-icon-right">
+                        >
+                    </div>
+                </div>
+            </div>
+    </div>
+    </template>
+    </div>
+
+    <div id="film-detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="film-title" id="title"></h3>
+            <div class="film-detail" id="modalDetails">
+                <img class="film-img" />
+                <div class="modal-details">
+                    <p id="genres"></p>
+                    <p id="date"></p>
+                    <p id="rated"></p>
+                    <p id="score"></p>
+                    <p id="director"></p>
+                    <p id="actors"></p>
+                    <p id="duration"></p>
+                    <p id="countries"></p>
+                    <p id="description"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
