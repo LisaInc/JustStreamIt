@@ -6,13 +6,13 @@
     <title>JustStreamIt</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/static/css/style.css">
-    <script type="module" src="/static/js/main.js" defer></script>
-    <script type="module" src="/static/js/modal.js" defer></script>
+    <script type="module" src="/static/js/main.js"></script>
+    <script type="module" src="/static/js/modal.js"></script>
 </head>
 
 <body>
     <div id='menu'>
-        <img class="logo" src="/static/img/logo.png">
+        <img class="logo" alt="logo" src="/static/img/logo.png">
     </div>
 
     <div id='bestFilm' class='best-film'>
@@ -24,7 +24,7 @@
                 <h2 class="genre"></h2>
                 <div class="nav nav-left">
                     <div class="ion-chevron-left carousel-arrow-icon-left">
-                        &lt
+                        &lt;
                     </div>
                 </div>
                 <div class="carousel-content">
@@ -42,8 +42,7 @@
                     </div>
                 </div>
             </div>
-    </div>
-    </template>
+        </template>
     </div>
 
     <div id="film-detail-modal" class="modal">
@@ -51,7 +50,7 @@
             <span class="close">&times;</span>
             <h3 class="film-title" id="title"></h3>
             <div class="film-detail" id="modalDetails">
-                <img class="film-img" />
+                <img class="film-img" alt="film's image" />
                 <div class="modal-details">
                     <p id="genres"></p>
                     <p id="date"></p>
